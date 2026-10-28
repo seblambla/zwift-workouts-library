@@ -1,0 +1,31 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Endurance 90 L08B - Z2 + 3x10 Tempo @ 85%</name>
+    <description>Endurance 90 minutes - level 8 of 10, variant B. Z2 + 3x10 Tempo @ 85%.
+
+Structure: 10 min warm-up, 6 min @ 68%, 3 x (10 min @ 85% / 13 min @ 66%), 5 min cool-down.
+
+Coach notes: Three 10-minute tempo blocks inside a long Zone 2 ride. Controlled, never hard. Eat 40-60 g of carbohydrate per hour on rides this long.
+
+Estimated TSS: 76.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Endurance"/>
+        <tag name="90 min"/>
+        <tag name="Level 8"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.60">
+            <textevent timeoffset="0" message="Long endurance ride: 90 minutes. Warm up easy and settle into a relaxed rhythm. Have food and drink within reach."/>
+        </Warmup>
+        <SteadyState Duration="360" Power="0.68">
+            <textevent timeoffset="0" message="6 min at 68% - easy. Drink."/>
+        </SteadyState>
+        <IntervalsT Repeat="3" OnDuration="600" OffDuration="780" OnPower="0.85" OffPower="0.66">
+            <textevent timeoffset="0" message="Tempo: 10 min at 85%. Controlled, rhythmic, not hard."/>
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.58" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done - 90 minutes in the bank. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>

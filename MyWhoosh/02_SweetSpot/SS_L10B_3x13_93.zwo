@@ -1,0 +1,27 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Sweet Spot L10B - 3x13 @ 93%</name>
+    <description>Sweet Spot - level 10 of 10, variant B. 3x13 @ 93%.
+
+Structure: 10 min warm-up, 3 x (13 min @ 93% / 2 min @ 55%), 5 min cool-down.
+
+Coach notes: 39 minutes at the top of sweet spot. The hardest sweet spot session in the library.
+
+Estimated TSS: 68.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Sweet Spot"/>
+        <tag name="Level 10"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Sweet spot session. Build the warm-up gradually."/>
+        </Warmup>
+        <IntervalsT Repeat="3" OnDuration="780" OffDuration="120" OnPower="0.93" OffPower="0.55">
+            <textevent timeoffset="0" message="13 min at 93% - comfortably hard."/>
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.60" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>

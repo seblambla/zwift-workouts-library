@@ -1,0 +1,30 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Mixed L02A - Z2 + Tempo Finish</name>
+    <description>Mixed - level 2 of 10, variant A. Z2 + Tempo Finish.
+
+Structure: 10 min warm-up, 30 min @ 68%, 15 min @ 85%, 5 min cool-down.
+
+Coach notes: 30 min Zone 2 then 15 min tempo. Finish stronger than you started.
+
+Estimated TSS: 50.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Mixed"/>
+        <tag name="Level 2"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Mixed session today. Warm up progressively."/>
+        </Warmup>
+        <SteadyState Duration="1800" Power="0.68">
+            <textevent timeoffset="0" message="30 min at 68% - steady Zone 2. Conversational pace."/>
+        </SteadyState>
+        <SteadyState Duration="900" Power="0.85">
+            <textevent timeoffset="0" message="Tempo: 15 min at 85%. Controlled, rhythmic, not hard."/>
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.60" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>

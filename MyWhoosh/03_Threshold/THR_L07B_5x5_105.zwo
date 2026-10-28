@@ -1,0 +1,27 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Threshold L07B - 5x5 @ 105%</name>
+    <description>Threshold - level 7 of 10, variant B. 5x5 @ 105%.
+
+Structure: 10 min warm-up, 5 x (5 min @ 105% / 4 min @ 60%), 5 min cool-down.
+
+Coach notes: Five 5-minute blocks above threshold. Repeatability matters more than any single block.
+
+Estimated TSS: 67.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Threshold"/>
+        <tag name="Level 7"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.80">
+            <textevent timeoffset="0" message="Threshold session. Warm up properly - the main set starts hard."/>
+        </Warmup>
+        <IntervalsT Repeat="5" OnDuration="300" OffDuration="240" OnPower="1.05" OffPower="0.60">
+            <textevent timeoffset="0" message="5 min at 105%. Pace it like a time trial."/>
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.60" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>

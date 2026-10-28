@@ -1,0 +1,27 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Threshold L08B - 4x8 @ 102%</name>
+    <description>Threshold - level 8 of 10, variant B. 4x8 @ 102%.
+
+Structure: 10 min warm-up, 4 x (8 min @ 102% / 3:15 @ 55%), 5 min cool-down.
+
+Coach notes: Four blocks just above FTP. The burn builds from minute 4 - stay seated.
+
+Estimated TSS: 71.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Threshold"/>
+        <tag name="Level 8"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.80">
+            <textevent timeoffset="0" message="Threshold session. Warm up properly - the main set starts hard."/>
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="480" OffDuration="195" OnPower="1.02" OffPower="0.55">
+            <textevent timeoffset="0" message="8 min at 102%. Pace it like a time trial."/>
+        </IntervalsT>
+        <Cooldown Duration="300" PowerLow="0.60" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>

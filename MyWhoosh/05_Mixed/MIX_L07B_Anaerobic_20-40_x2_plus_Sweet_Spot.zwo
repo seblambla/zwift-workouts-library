@@ -1,0 +1,42 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Mixed L07B - Anaerobic 20/40 x2 + Sweet Spot</name>
+    <description>Mixed - level 7 of 10, variant B. Anaerobic 20/40 x2 + Sweet Spot.
+
+Structure: 10 min warm-up, 3 min @ 70%, 8 x (20 s @ 150% / 40 s @ 50%), 5 min @ 55%, 8 x (20 s @ 150% / 40 s @ 50%), 5 min @ 55%, 16 min @ 92%, 5 min cool-down.
+
+Coach notes: Two sets of eight 20/40s at 150%, then 16 minutes of sweet spot on tired legs.
+
+Estimated TSS: 63.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Mixed"/>
+        <tag name="Level 7"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Mixed session today. Warm up progressively."/>
+        </Warmup>
+        <SteadyState Duration="180" Power="0.70">
+            <textevent timeoffset="0" message="Recover: 3 min easy. Drink."/>
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="20" OffDuration="40" OnPower="1.50" OffPower="0.50">
+            <textevent timeoffset="0" message="GO! 20 s at 150%. Commit from the first pedal stroke."/>
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Recover: 5 min easy. Drink."/>
+        </SteadyState>
+        <IntervalsT Repeat="8" OnDuration="20" OffDuration="40" OnPower="1.50" OffPower="0.50">
+            <textevent timeoffset="0" message="GO! 20 s at 150%. Commit from the first pedal stroke."/>
+        </IntervalsT>
+        <SteadyState Duration="300" Power="0.55">
+            <textevent timeoffset="0" message="Recover: 5 min easy. Drink."/>
+        </SteadyState>
+        <SteadyState Duration="960" Power="0.92">
+            <textevent timeoffset="0" message="16 min at 92% - sweet spot, comfortably hard."/>
+        </SteadyState>
+        <Cooldown Duration="300" PowerLow="0.60" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>

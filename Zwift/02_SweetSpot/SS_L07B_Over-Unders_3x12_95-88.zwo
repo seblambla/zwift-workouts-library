@@ -1,0 +1,43 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Sweet Spot L07B - Over-Unders 3x12 (95/88)</name>
+    <description>Sweet Spot - level 7 of 10, variant B. Over-Unders 3x12 (95/88).
+
+Structure: 10 min warm-up, 6 x (1 min @ 95% / 1 min @ 88%), 4 min @ 55%, 6 x (1 min @ 95% / 1 min @ 88%), 4 min @ 55%, 6 x (1 min @ 95% / 1 min @ 88%), 6 min cool-down.
+
+Coach notes: Alternate 1 min at 95% and 1 min at 88%. The under is still work - do not coast.
+
+Estimated TSS: 63.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Sweet Spot"/>
+        <tag name="Level 7"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Sweet spot session. Build the warm-up gradually."/>
+            <textevent timeoffset="480" message="2 minutes to the main set. Lift the effort slightly."/>
+        </Warmup>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.95" OffPower="0.88">
+            <textevent timeoffset="0" message="OVER: 1 min at 95%. Push, then settle back without stopping."/>
+            <textevent timeoffset="60" message="UNDER: 1 min at 88%. Keep working, no coasting."/>
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Recover: 4 min easy. Drink."/>
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.95" OffPower="0.88">
+            <textevent timeoffset="0" message="OVER: 1 min at 95%. Push, then settle back without stopping."/>
+            <textevent timeoffset="60" message="UNDER: 1 min at 88%. Keep working, no coasting."/>
+        </IntervalsT>
+        <SteadyState Duration="240" Power="0.55">
+            <textevent timeoffset="0" message="Recover: 4 min easy. Drink."/>
+        </SteadyState>
+        <IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.95" OffPower="0.88">
+            <textevent timeoffset="0" message="OVER: 1 min at 95%. Push, then settle back without stopping."/>
+            <textevent timeoffset="60" message="UNDER: 1 min at 88%. Keep working, no coasting."/>
+        </IntervalsT>
+        <Cooldown Duration="360" PowerLow="0.60" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>

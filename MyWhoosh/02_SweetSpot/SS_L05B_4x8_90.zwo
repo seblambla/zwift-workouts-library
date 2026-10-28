@@ -1,0 +1,27 @@
+<workout_file>
+    <author>Coach Library</author>
+    <name>Sweet Spot L05B - 4x8 @ 90%</name>
+    <description>Sweet Spot - level 5 of 10, variant B. 4x8 @ 90%.
+
+Structure: 10 min warm-up, 4 x (8 min @ 90% / 3 min @ 55%), 6 min cool-down.
+
+Coach notes: Four blocks with 3-minute recoveries. Stay seated, power line flat.
+
+Estimated TSS: 58.</description>
+    <sportType>bike</sportType>
+    <tags>
+        <tag name="Sweet Spot"/>
+        <tag name="Level 5"/>
+    </tags>
+    <workout>
+        <Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75">
+            <textevent timeoffset="0" message="Sweet spot session. Build the warm-up gradually."/>
+        </Warmup>
+        <IntervalsT Repeat="4" OnDuration="480" OffDuration="180" OnPower="0.90" OffPower="0.55">
+            <textevent timeoffset="0" message="8 min at 90% - comfortably hard."/>
+        </IntervalsT>
+        <Cooldown Duration="360" PowerLow="0.60" PowerHigh="0.45">
+            <textevent timeoffset="0" message="Well done. Cool down easy."/>
+        </Cooldown>
+    </workout>
+</workout_file>
